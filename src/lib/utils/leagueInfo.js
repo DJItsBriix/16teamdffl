@@ -7,7 +7,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>                                Established in 2023</p>
+  <p>Established in 2023</p>
   <p></p>
   <p></p>
   <p></p>
