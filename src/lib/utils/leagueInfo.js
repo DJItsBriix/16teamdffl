@@ -32,7 +32,7 @@ export const managers = [
        "location": "North Carolina", // (optional)
        "bio": "League Commissioner",
        "photo": "/managers/arcticpuffin.png", // square ratio recommended (no larger than 500x500)
-       "fantasyStart": null, // (optional) when did the manager start playing fantasy football
+       "fantasyStart": 2019, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "car", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
@@ -51,12 +51,12 @@ export const managers = [
        "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Aloew",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-       "location": "null", // (optional)
+       "location": "Fantasy Land", // (optional)
        "bio": " ",
        "photo": "/managers/aloew.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": null, // (optional) when did the manager start playing fantasy football
-       "favoriteTeam": "null", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-       "mode": "null", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+       "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
          name: "Everyone", // Can be anything (usually your rival's name)
          link: null, // manager array number within this array, or null to link back to all managers page
